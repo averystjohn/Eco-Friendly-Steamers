@@ -1,0 +1,144 @@
+body {
+  /* background-color: #F1F8E8; */
+  margin: 0;
+}
+
+header {
+  /* background-color: red; */
+  height: 100px;
+}
+
+img {
+  background-color: #387367;
+  /* Changed background color of image */
+  height: 60px;
+  position: absolute;
+  top: 18px;
+  /* Changed top offset from 20px to 18px */
+  left: 20px;
+}
+ 
+.nav ul {
+  background-color: #387367;
+  /* Changed background color. */
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: right;
+  /* Changed text-align: center to text-align:right. */
+}
+
+.nav li {
+  background-color: #387367;
+  /* Changed background color. */
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px 15px 10px;
+  /* Changed bottom margin to 15px */
+}
+ 
+.nav a {
+  background-color: #387367;
+  /* Changed background color. */
+  color: #fff;
+  /* Changed links to white */
+  text-decoration: none;
+  /* Removed the link underlines with text-decoration. */
+  font-size: 18px;
+  /* Changed font size. */
+}
+
+section {
+  /* background-color: chocolate; */
+  width: 840px;
+  margin: 50px auto 0 auto;
+}
+
+.section-box {
+  display: inline-block;
+  width: 400px;
+  height: 250px;
+  /* Changed height from 300px to 250px. */
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+#quote-offer-container {
+  background-color: #D8EFD3;
+  /* Changed background color. */
+  margin-top: 80px;
+  /* Added margin-top of 80px. */
+  margin-right: 60px;
+  /* Changed margin-right from 40px to 60px. */
+  padding-left: 20px;
+  /* Added 20px padding-left. */
+  padding-top: 50px;
+  /* Added 50px padding-top. */
+}
+
+#quote-form-container {
+  background-color: #D8EFD3;
+  /* Changed background color. */
+  padding: 20px;
+  margin-top: 110px;
+  /* Changed margin-top from 30px to 110px. */
+  height: 180px;
+  /* Changed height from 200px to 180px. */
+  width: 380px;
+  /* Changed width to 380px. */
+}
+
+#quote-form {
+  /* background-color: salmon; */
+  text-align: center;
+}
+
+.form-field {
+  margin-bottom: 15px;
+  color: #387367;
+  /* Changed color. */
+}
+
+button {
+  border: none;
+  background-color: #387367;
+  /* Changed submit button background color. */
+  color: #fff;
+  font-size: 15px;
+  /* Changed font size. */
+  height: 40px;
+  width:  80px;
+}
+
+h2 {
+  color: #387367;
+}
+/* Added h2 color. */
+
+p {
+  color: #387367;
+}
+ /* Added p color. */
+
+#quote-offer-container {
+  border: #387367 1px solid;
+  border-radius: 30px;
+}
+/* Added border color and radius. */
+
+#quote-form-container {
+  border: #387367 1px solid;
+  border-radius: 30px;
+}
+/* Added border color and radius. */
+
+.hero-image {
+  background-image: url("https://nextdaycleaning.com/wp-content/uploads/2022/12/What-is-steam-cleaning.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  /* background-size: 1400px; */
+}
+/* Added background image. */
